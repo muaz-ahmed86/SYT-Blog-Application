@@ -12,7 +12,6 @@ const setRoutes = require('./routes/routes')
 
 
 const MONGODB_URI = `mongodb+srv://${config.get('db-admin')}:${config.get('db-password')}@blogapp.ool50gr.mongodb.net/?retryWrites=true&w=majority`
-console.log(MONGODB_URI)
 
 const app = express();
 
